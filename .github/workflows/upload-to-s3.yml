@@ -3,7 +3,7 @@ name: Upload to AWS S3
 on:
   push:
     branches:
-      - main  # You can specify the branch you want to monitor for changes
+      - git_s3_upload  # You can specify the branch you want to monitor for changes
 
 jobs:
   build:
