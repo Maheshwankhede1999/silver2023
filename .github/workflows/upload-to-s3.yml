@@ -3,7 +3,7 @@ name: Upload File from Github to AWS s3
 on:
   push:
     branches:
-      - git_s3_upload
+      - main
 
 jobs:
   build:
